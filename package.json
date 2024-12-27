@@ -1,7 +1,13 @@
 {
+  "name": "image-to-icons-converter",
+  "version": "1.0.0",
+  "description": "图片转icons图标生成器",
   "scripts": {
-    "dev": "开发环境命令",
-    "build": "构建命令",
-    "start": "启动命令"
+    "dev": "http-server",
+    "start": "http-server",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 } 
